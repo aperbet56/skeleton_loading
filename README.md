@@ -6,7 +6,7 @@ Création d'un effet squelette (skeleton) au chargement de la page en HTML5, CSS
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/skeleton_loading/
 
 ## Projet développé avec
 
