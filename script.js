@@ -31,3 +31,28 @@ const fetchDatas = async () => {
 
 // Appel de la fonction asynchrone fetchDatas()
 fetchDatas();
+
+// Déclaration de la fonction createCards ayant comme paramètre data (les données renvoyées par l'API) qui va permettre la création de cartes
+const createCards = (data) => {
+  // Création de la variable cardsList
+  let cardsList = "";
+
+  // Boucle for qui va parcourir toutes les cartes
+  for (let i = 0; i < cards.length; i++) {
+    // Mise en place de la structure HTML
+    const newCard = `
+        <div class="card">
+          <img src=${data[i].download_url} class="top__img" />
+          <div class="content">
+            <h3 class="card__title">Lorem, ipsum dolor sit amet</h3>
+            <p class="card__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="card__text">Lorem, ipsum dolor</p>
+          </div>
+        </div>
+        `;
+    // Ajout de chaque nouvelle carte créée dans la variable cardsList
+    cardsList += newCard;
+  }
+
+  cardsGrid.innerHTML = cardsList;
+};
