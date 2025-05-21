@@ -47,6 +47,7 @@ const createCards = (data) => {
             <h3 class="card__title">Lorem, ipsum dolor sit amet</h3>
             <p class="card__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p class="card__text">Lorem, ipsum dolor</p>
+            <button class="card__text__btn">Lorem</button>
           </div>
         </div>
         `;
