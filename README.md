@@ -3,6 +3,7 @@
 ## Le challenge
 
 Création d'un effet squelette (skeleton) au chargement de la page en HTML5, CSS3 et JavaScript.
+Afin de mieux visualiser l'effet squelette(skeleton) au chargement de la page web, simulez une connexion internet lente. Pour se faire, ouvrez l'inspecteur, cliquez sur réseaux et simulez une connexion lente.
 
 ## Démonstration
 
